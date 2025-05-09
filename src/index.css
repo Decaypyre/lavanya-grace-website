@@ -92,10 +92,12 @@
   }
   
   .scroll-to-top {
-    @apply fixed bottom-5 right-5 bg-brand-pink text-white rounded-full p-3 opacity-0 invisible transition-all duration-300 z-50;
+    @apply fixed bottom-5 right-5 bg-brand-pink text-white rounded-full p-3 opacity-0 transition-all duration-300 z-50;
+    visibility: hidden;
   }
   
-  .scroll-to-top.visible {
-    @apply opacity-100 visible;
+  .scroll-to-top.is-active {
+    @apply opacity-100;
+    visibility: visible;
   }
 }

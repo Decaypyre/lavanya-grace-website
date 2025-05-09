@@ -33,7 +33,7 @@ const ScrollToTop = () => {
       onClick={scrollToTop}
       className={cn(
         "scroll-to-top",
-        isVisible ? "visible" : ""
+        isVisible ? "is-active" : ""
       )}
       aria-label="Scroll to top"
     >

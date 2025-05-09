@@ -1,9 +1,8 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ServiceCard from '@/components/ServiceCard';
 import { Button } from '@/components/ui/button';
-import { ArrowRight, Download, Scissors, Palette, Sparkles, Nail, ActivitySquare, Scissors as ScissorsIcon } from 'lucide-react';
+import { ArrowRight, Download, Scissors, Palette, Sparkles, Snail, ActivitySquare, Scissors as ScissorsIcon } from 'lucide-react';
 
 const ServicesPage = () => {
   const services = [
@@ -36,7 +35,7 @@ const ServicesPage = () => {
       description: "Express yourself with our creative nail art designs and extensions.",
       price: "₹999 onwards",
       image: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmFpbCUyMGFydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
-      icon: <Nail size={20} className="text-brand-pink" />,
+      icon: <Snail size={20} className="text-brand-pink" />,
       link: "/services"
     },
     {
