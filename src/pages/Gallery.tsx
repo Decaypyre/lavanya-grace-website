@@ -31,19 +31,19 @@ const GalleryPage = () => {
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8YmVhdXR5JTIwc2Fsb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhhaXIlMjBhZnRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
       alt: "Hair Styling Session",
       category: "hair"
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1594532231144-9072151fb499?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZXllYnJvd3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1554519934-e32b1629d9ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGV5ZWJyb3dzfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
       alt: "Eyebrow Shaping",
       category: "makeup"
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1571291243306-40cfd8dfe8f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhaXIlMjBzdHlsaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGFpciUyMGNvbG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
       alt: "Hair Coloring Process",
       category: "hair"
     },
@@ -55,19 +55,19 @@ const GalleryPage = () => {
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bmFpbCUyMGFydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmFpbCUyMGFydHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
       alt: "Nail Art Design",
       category: "nails"
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1522123434663-0565662246f5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmFpbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1610992448550-aff9a2025ade?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFuaWN1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60",
       alt: "Manicure Process",
       category: "nails"
     },
     {
       id: 9,
-      src: "https://images.unsplash.com/photo-1581494017001-71ae9b3a8f6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8aGFpciUyMGNvbG9yfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60",
+      src: "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGhhaXIlMjBjb2xvcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=800&q=60",
       alt: "Hair Color Transformation",
       category: "hair"
     },
