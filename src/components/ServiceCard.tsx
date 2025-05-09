@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 
@@ -20,14 +20,20 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   icon,
   link
 }) => {
+  const [imageError, setImageError] = useState(false);
+  
+  // Fallback image if the original fails to load
+  const fallbackImage = "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60";
+  
   return (
     <div className="service-card group">
       <div className="relative h-48 overflow-hidden rounded-t-lg">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 z-10"></div>
         <img
-          src={image}
+          src={imageError ? fallbackImage : image}
           alt={title}
           className="service-image w-full h-full object-cover transition-transform duration-700"
+          onError={() => setImageError(true)}
         />
         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm p-2 rounded-full z-20">
           {icon}

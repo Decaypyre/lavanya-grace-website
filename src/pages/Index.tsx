@@ -190,7 +190,7 @@ const Home = () => {
             </div>
             <div className="flex space-x-4">
               <Link to="/contact">
-                <Button variant="outline" className="border-white text-white hover:bg-white hover:text-brand-pink">
+                <Button className="bg-white text-brand-pink hover:bg-white/90">
                   Contact Us
                 </Button>
               </Link>
